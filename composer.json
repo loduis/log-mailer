@@ -1,0 +1,23 @@
+{
+    "name": "loduis/mailer-log-transport",
+    "type": "library",
+    "description": "Symfony Log transport in monologo",
+    "require": {
+        "php": "^7.4|^8.0",
+        "symfony/mailer": "5.4"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Loduis Madariaga",
+            "email": "loduis@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+           "Symfony\\Component\\Mailer\\Transport\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
