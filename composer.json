@@ -1,5 +1,5 @@
 {
-    "name": "loduis/mailer-log-transport",
+    "name": "loduis/mailer-log",
     "type": "library",
     "description": "Symfony Log transport in monologo",
     "require": {
