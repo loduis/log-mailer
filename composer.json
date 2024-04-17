@@ -19,5 +19,8 @@
         }
     },
     "minimum-stability": "dev",
-    "prefer-stable": true
+    "prefer-stable": true,
+    "extra" : {
+        "branch-alias" : {"dev-master" : "5.4.x-dev"}
+    }
 }
